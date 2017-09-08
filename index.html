@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="veiwport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Website</title>
+  <!--link(rel="stylesheet", href="css/owl.theme.default.css")-->
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<html lang="en">
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Image view</h1>
+      </header>
+      <main class="main">
+        <div class="mainField"></div>
+        <aside class="aside">
+          <h2>FILTER BY</h2>
+          <div class="size">
+            <h3 class="h">Size</h3>
+            <ul>
+              <li>All
+                <input type="radio" checked="checked" name="size" value=""/>
+              </li>
+              <li>Large
+                <input type="radio" name="size" value="large"/>
+              </li>
+              <li>Medium
+                <input type="radio" name="size" value="medium"/>
+              </li>
+              <li>Small
+                <input type="radio" name="size" value="small"/>
+              </li>
+            </ul>
+          </div>
+          <div class="author">
+            <h3 class="h">Author</h3>
+          </div>
+        </aside>
+        <div class="pag">
+          <div class="left" onclick="pagination('l')"><</div>
+          <div class="num"></div>
+          <div class="right" onclick="pagination('r')">></div>
+        </div>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
